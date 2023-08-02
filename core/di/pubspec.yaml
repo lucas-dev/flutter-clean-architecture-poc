@@ -1,0 +1,57 @@
+name: core_di
+description: core di
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  get_it: 7.6.0
+  injectable: 2.1.2
+  flutter_bloc: 8.1.2
+  common_di:
+    path: ../../common/di
+  splash_di:
+    path: ../../splash/di
+  countries_di:
+    path: ../../countries/di
+  universities_di:
+    path: ../../universities/di
+  universities_data:
+    path: ../../universities/data
+  universities_domain:
+    path: ../../universities/domain
+  universities_remote:
+    path: ../../universities/remote
+  universities_ui:
+    path: ../../universities/ui
+  splash_navigation:
+    path: ../../splash/navigation
+  countries_navigation:
+    path: ../../countries/navigation
+  universities_navigation:
+    path: ../../universities/navigation
+  splash_presentation:
+    path: ../../splash/presentation
+  countries_presentation:
+    path: ../../countries/presentation
+  universities_presentation:
+    path: ../../universities/presentation
+  core_navigation:
+    path: ../navigation
+  countries_data:
+    path: ../../countries/data
+  countries_domain:
+    path: ../../countries/domain
+  countries_remote:
+    path: ../../countries/remote
+  countries_cache:
+    path: ../../countries/cache
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  injectable_generator: 2.1.6
+
+
+

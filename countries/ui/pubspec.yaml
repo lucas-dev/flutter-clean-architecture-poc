@@ -1,0 +1,37 @@
+name: countries_ui
+description: Common stuff used by other packages
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: 7.6.0
+  injectable: 2.1.2
+  flutter_bloc: 8.1.2
+  common_ui:
+    path: ../../common/ui
+  common_presentation:
+    path: ../../common/presentation
+  countries_presentation:
+    path: ../presentation
+  countries_di:
+    path: ../di
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  injectable_generator: 2.1.6
+  bloc_test: ^9.0.0
+  mocktail: 0.3.0
+  test: any
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+

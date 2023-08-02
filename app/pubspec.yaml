@@ -1,0 +1,48 @@
+name: flutter_clean_architecture_poc
+description: clean architecture poc
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: 7.6.0
+  injectable: 2.1.2
+  flutter_bloc: 8.1.2
+  flow_builder: ^0.0.9
+  equatable: ^2.0.5
+  http: ^0.13.5
+  html: ^0.15.1
+  shared_preferences: ^0.5.6
+  floor: ^1.4.2
+  retrofit: ^4.0.1
+  dio: ^5.3.0
+  freezed_annotation: 2.4.1
+
+  cupertino_icons: ^1.0.2
+
+  core_di:
+    path: ../core/di
+  core_navigation:
+    path: ../core/navigation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  floor_generator: ^1.4.2
+  build_runner: ^2.1.2
+
+  retrofit_generator: ^7.0.8
+  injectable_generator: 2.1.6
+  json_serializable: 6.6.1
+  freezed: 2.4.1
+
+flutter:
+  uses-material-design: true

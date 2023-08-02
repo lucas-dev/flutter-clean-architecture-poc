@@ -1,0 +1,33 @@
+name: core_navigation
+description: core navigation
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  get_it: 7.6.0
+  injectable: 2.1.2
+  flutter_bloc: 8.1.2
+  flow_builder: ^0.0.9
+  splash_navigation:
+    path: ../../splash/navigation
+  countries_navigation:
+    path: ../../countries/navigation
+  universities_navigation:
+    path: ../../universities/navigation
+  splash_ui:
+    path: ../../splash/ui
+  countries_ui:
+    path: ../../countries/ui
+  universities_ui:
+    path: ../../universities/ui
+  common_di:
+    path: ../../common/di
+
+dev_dependencies:
+    build_runner: ^2.1.2
+    injectable_generator: 2.1.6
+
+

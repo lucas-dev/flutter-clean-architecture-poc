@@ -1,0 +1,8 @@
+name: common_remote
+description: common remote
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
